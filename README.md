@@ -24,15 +24,15 @@ Select your tool of preference below:
 </details>
 <details>
     <summary>From the command line</summary>
-    If you are on a Unix-like system, make sure that `gradlew` is executable:
-```shell
-chmod +x gradlew
-```
-    Then run using:
-```shell
-./gradlew run --class Dayxx
-```
-    replacing the `xx` with the two-digit day number.
+If you are on a Unix-like system, make sure that `gradlew` is executable:
+
+    chmod +x gradlew
+
+Then run using:
+
+    ./gradlew run --class Dayxx
+
+replacing the `xx` with the two-digit day number.
 </details>
 <details>
     <summary>Visual Studio Code with Java plugin</summary>
