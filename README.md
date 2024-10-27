@@ -1,6 +1,11 @@
 # advent-of-code-template
 Welcome! This is a small template for the [Advent of Code](https://adventofcode.com). This repository has several branches for several programming languages.
 
+## Supported languages
+- [Kotlin](https://github.com/770grappenmaker/advent-of-code-template/tree/kotlin)
+- [Java](https://github.com/770grappenmaker/advent-of-code-template/tree/java)
+- [Python](https://github.com/770grappenmaker/advent-of-code-template/tree/python)
+
 ## Usage
 1. Click "Use this template" at the top-right of your screen
 2. Tick "Include all branches" to create a branch for each programming language. If you do not tick this box, only this `README` will be created.
