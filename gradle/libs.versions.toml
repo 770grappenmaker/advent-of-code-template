@@ -1,0 +1,6 @@
+# Configuration for gradle, do not worry about it
+[versions]
+kotlin = "2.0.21"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
