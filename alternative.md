@@ -9,9 +9,11 @@ The `advent-of-code-data` libraries follows these rules, but still, use it at yo
 
 There are two ways to obtain your session token:
 <details>
-<summary>Using `aocd-token` (Linux only)</summary>
-1. Install `browser-cookie3`: `pip install browser-cookie3`
-2. Run `aocd-token > ./aocd/token`
+<summary>Using <code>aocd-token</code> (Linux only)</summary>
+<ol>
+<li>Install <code>browser-cookie3</code>: <code>pip install browser-cookie3</code></li>
+<li>Run <code>aocd-token > ./aocd/token</code></li>
+</ol>
 </details>
 <details>
 <summary>Manually</summary>
