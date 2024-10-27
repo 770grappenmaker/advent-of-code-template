@@ -1,0 +1,2 @@
+# Makes sure your puzzle inputs are not posted to GitHub, GitLab or any other git service
+*.txt

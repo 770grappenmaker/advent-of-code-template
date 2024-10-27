@@ -1,0 +1,1 @@
+This directory contains screenshots for the top-level `README.md` file, you can delete this if you want to.
