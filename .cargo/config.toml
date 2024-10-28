@@ -1,0 +1,4 @@
+[alias]
+xtask = "run --package xtask --"
+get-day = "run --package xtask -- --get-day"
+run-day = "run --package xtask -- --run-day"

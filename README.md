@@ -1,14 +1,18 @@
-# advent-of-code-template
-Welcome! This is a small template for the [Advent of Code](https://adventofcode.com). This repository has several branches for several programming languages.
+# advent-of-code-template (Rust)
+Welcome to the Advent of Code template for Rust! Python is a statically
+typed, systems programming language which, instead of manual allocations or
+a garbage collector, uses a novelty memory model called the "borrow checker".
 
-## Supported languages
-- [Kotlin](https://github.com/770grappenmaker/advent-of-code-template/tree/kotlin)
-- [Java](https://github.com/770grappenmaker/advent-of-code-template/tree/java)
-- [Python](https://github.com/770grappenmaker/advent-of-code-template/tree/python)
+## Prerequisites
+- Please first install rustup (install from https://rustup.rs) because the
+    template has specified a minimum rust version that it will work with.
+- curl in your PATH (this is probably already the case but it is needed)
 
 ## Usage
-1. Click "Use this template" at the top-right of your screen
-2. Tick "Include all branches" to create a branch for each programming language. If you do not tick this box, only this `README` will be created.
-3. Fill in the rest of the form and click "Create repository"
-4. Set the main branch to the language you want to write your solutions in. You may delete the others.
-5. Follow the language-specific instructions in its own `README.md` file.
+1. Get your puzzle input from the website and save it to `inputs/day-%02d.txt`. You
+    can also write your cookie header to `session.txt` and use `cargo get-day %d`.
+2. Write your solution to `day/src/day%02d.rs`, with a `pub fn part1` and a `pub fn part2` (see `day/src/day01.rs` for a template).
+3. You can add any dependencies you need to `day/Cargo.toml`. Some common ones
+   like itertools and anyhow are already there but commented.
+3. Run `cargo run-day %d` to get the solutions.
+4. Copy-paste them into the submission field.
