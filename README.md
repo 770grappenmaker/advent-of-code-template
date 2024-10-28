@@ -1,5 +1,5 @@
 # advent-of-code-template (Rust)
-Welcome to the Advent of Code template for Rust! Python is a statically
+Welcome to the Advent of Code template for Rust! Rust is a statically
 typed, systems programming language which, instead of manual allocations or
 a garbage collector, uses a novelty memory model called the "borrow checker".
 
