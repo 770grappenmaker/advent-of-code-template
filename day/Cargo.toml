@@ -1,0 +1,19 @@
+[package]
+name = "day"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70.0"
+
+[dependencies]
+# anyhow = "1"
+# chrono = "0.4"
+# chrono-tz = "0.10"
+# itertools = "0.13"
+# num = "0.4"
+# regex = "1.11"
+# serde = { version = "1.0", features = ["derive", "rc"] }
+# serde_json = "1.0"
+
+[[bin]]
+name = "runner"
+path = "temp.rs"
